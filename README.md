@@ -20,3 +20,7 @@ Ainsi, afin d'adapter l'application aux parlementaires d'un autre pays, remplace
 ## Mettre à jour les données des parlementaires français
 
 L'application utilise l'excellent module "twitter-parlementaires", que l'on peut mettre à jour via les fichiers et la documentation du répertoire `vendor/twitter-parlementaires`.
+
+## Rendu final attendu
+
+![http://www.parlementtransparent.fr](http://i.imgur.com/X2jtetd.png)
