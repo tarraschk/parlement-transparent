@@ -1,0 +1,29 @@
+<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12">
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <div class="media">
+                <div class="media-left">
+                    <a href="https://twitter.com/<%= twitter %>" target="_blank">
+                        <img class="media-object" src="<%= profile_image_url %>" alt="Photo de <%= nom %>">
+                    </a>
+                </div>
+                <div class="media-body">
+                    <a href="https://twitter.com/<%= twitter %>" target="_blank">
+                        <h4 class="media-heading"><%= nom %></h4>
+                    </a>
+                    <h5 class="media-heading text-muted">(<%= displayed_type %> <%= groupe_sigle %>)</h4>
+                    <p>
+                        Circonscription n°<%= num_circo %>
+                        <br/>
+                        <%= displayed_circo %>
+                    </p>
+                        <a class="btn btn-xs twitter-share-button btn-social btn-twitter"
+                           href="https://twitter.com/intent/tweet?text=<%= message %>&hashtags=ParlementTransparent&url=http%3A%2F%2Fwww.parlementtransparent.fr"
+                           target="_blank">
+                            <span class="fa fa-twitter"></span> Envoyer un Tweet
+                        </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

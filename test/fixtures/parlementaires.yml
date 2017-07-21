@@ -1,0 +1,47 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  type_parlementaire: MyString
+  twitter: MyString
+  nom: MyString
+  nom_de_famille: MyString
+  prenom: MyString
+  sexe: MyString
+  twitter_tweets: 1
+  twitter_followers: 1
+  twitter_following: 1
+  twitter_listed: 1
+  twitter_favourites: 1
+  twitter_verified: false
+  twitter_protected: false
+  twitter_id: 1
+  twitter_name: MyString
+  twitter_description: MyString
+  twitter_created_at: 2017-02-09 22:50:27
+  sites_web: MyString
+  url_institution: MyString
+  slug: MyString
+  url_api: MyString
+
+two:
+  type_parlementaire: MyString
+  twitter: MyString
+  nom: MyString
+  nom_de_famille: MyString
+  prenom: MyString
+  sexe: MyString
+  twitter_tweets: 1
+  twitter_followers: 1
+  twitter_following: 1
+  twitter_listed: 1
+  twitter_favourites: 1
+  twitter_verified: false
+  twitter_protected: false
+  twitter_id: 1
+  twitter_name: MyString
+  twitter_description: MyString
+  twitter_created_at: 2017-02-09 22:50:27
+  sites_web: MyString
+  url_institution: MyString
+  slug: MyString
+  url_api: MyString
